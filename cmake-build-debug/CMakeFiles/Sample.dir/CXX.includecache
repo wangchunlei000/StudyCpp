@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dwb/Documents/Code/CLion/Sample/Methods.cpp
+Methods.h
+/Users/dwb/Documents/Code/CLion/Sample/Methods.h
+
+/Users/dwb/Documents/Code/CLion/Sample/Methods.h
+iostream
+-
+Methods.h
+/Users/dwb/Documents/Code/CLion/Sample/Methods.h
+
