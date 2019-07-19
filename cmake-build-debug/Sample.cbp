@@ -92,6 +92,12 @@
 		<Unit filename="/Users/dwb/Documents/Code/CLion/Sample/Methods.h">
 			<Option target="Sample"/>
 		</Unit>
+		<Unit filename="/Users/dwb/Documents/Code/CLion/Sample/Student.cpp">
+			<Option target="Sample"/>
+		</Unit>
+		<Unit filename="/Users/dwb/Documents/Code/CLion/Sample/Student.h">
+			<Option target="Sample"/>
+		</Unit>
 		<Unit filename="/Users/dwb/Documents/Code/CLion/Sample/main.cpp">
 			<Option target="Sample"/>
 		</Unit>

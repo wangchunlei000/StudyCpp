@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/dwb/Documents/Code/CLion/Sample/Cite.cpp" "/Users/dwb/Documents/Code/CLion/Sample/cmake-build-debug/CMakeFiles/Sample.dir/Cite.cpp.o"
   "/Users/dwb/Documents/Code/CLion/Sample/Methods.cpp" "/Users/dwb/Documents/Code/CLion/Sample/cmake-build-debug/CMakeFiles/Sample.dir/Methods.cpp.o"
+  "/Users/dwb/Documents/Code/CLion/Sample/Student.cpp" "/Users/dwb/Documents/Code/CLion/Sample/cmake-build-debug/CMakeFiles/Sample.dir/Student.cpp.o"
   "/Users/dwb/Documents/Code/CLion/Sample/main.cpp" "/Users/dwb/Documents/Code/CLion/Sample/cmake-build-debug/CMakeFiles/Sample.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

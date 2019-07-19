@@ -7,7 +7,11 @@ CMakeFiles/Sample.dir/Cite.cpp.o: ../Cite.h
 CMakeFiles/Sample.dir/Methods.cpp.o: ../Methods.cpp
 CMakeFiles/Sample.dir/Methods.cpp.o: ../Methods.h
 
+CMakeFiles/Sample.dir/Student.cpp.o: ../Student.cpp
+CMakeFiles/Sample.dir/Student.cpp.o: ../Student.h
+
 CMakeFiles/Sample.dir/main.cpp.o: ../Cite.h
 CMakeFiles/Sample.dir/main.cpp.o: ../Methods.h
+CMakeFiles/Sample.dir/main.cpp.o: ../Student.h
 CMakeFiles/Sample.dir/main.cpp.o: ../main.cpp
 

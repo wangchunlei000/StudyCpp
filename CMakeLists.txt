@@ -3,4 +3,4 @@ project(Sample)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Sample main.cpp Cite.cpp Cite.h Methods.cpp Methods.h)
+add_executable(Sample main.cpp Cite.cpp Cite.h Methods.cpp Methods.h Student.cpp Student.h)

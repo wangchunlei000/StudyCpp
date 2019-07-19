@@ -79,4 +79,42 @@ double& getArea(double radius){
     * 结构/类对象一般用引用或指针传递
     * 数组类型一般用指针传递
     * 形参是引用类型传递时，一般讲形参设置为const类型的引用，这样的好处是为了防止在函数中误操作，将实参的值修改掉了
+  
     
+####  类的介绍和使用
+- 介绍
+    - C/C++中用于声明类的关键字是class
+    - Struct也是可以声明类的
+    - C中struct只能声明成员变量，C++中还可以声明成员函数
+    - class与struct的区别：class默认是私有的，struct默认是公有的
+    - 访问修饰符
+        * public
+        * protected
+        * private
+    - 在类中声明的变量叫类的成员变量，在类中声明的函数叫类的成员函数
+- 构造函数
+    * 声明类的对象时，该类的构造函数会自动被调用，用于初始化类的成员变量
+    * 如果一个类没有自定义的构造函数，则C++编译器会自动生成一个默认的、共有的、无参的构造函数。
+    一旦自定义一个构造函数，则C++编译器就不会再生成默认的构造函数了
+    ```
+    Student::Student(const string &name, int age, int height) {
+           this->name = name;
+           this->age = age;
+           this->height = height;
+    }
+    
+    Student::Student(const string &name, int age, int height)
+        :name(name),age(age),height(height) {
+    }
+    ```
+    * 类的成员变量可以有该类的指针、引用，```但不能有该类的对象```
+    * 全局类对象，对象数组构造函数调用情况
+    * 析构函数：
+        * 做善后清理工作
+        * 在类对象被销毁时，自动调用；调用顺序与构造函数相反；
+        * 没有返回值
+        * 函数名为```~className```,如```~Student```
+        * 没有参数
+        * 自定义析构函数只能有一个，不能有重载
+        * 不管是否自定义一个析构函数，C++编译器都会生成一个默认的析构函数
+    * 构造函数有一个参数的类的隐式转换，用explicit关键字一直隐式转换

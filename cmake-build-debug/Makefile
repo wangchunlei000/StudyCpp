@@ -177,6 +177,33 @@ Methods.cpp.s:
 	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/Methods.cpp.s
 .PHONY : Methods.cpp.s
 
+Student.o: Student.cpp.o
+
+.PHONY : Student.o
+
+# target to build an object file
+Student.cpp.o:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/Student.cpp.o
+.PHONY : Student.cpp.o
+
+Student.i: Student.cpp.i
+
+.PHONY : Student.i
+
+# target to preprocess a source file
+Student.cpp.i:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/Student.cpp.i
+.PHONY : Student.cpp.i
+
+Student.s: Student.cpp.s
+
+.PHONY : Student.s
+
+# target to generate assembly for a file
+Student.cpp.s:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/Student.cpp.s
+.PHONY : Student.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... Methods.o"
 	@echo "... Methods.i"
 	@echo "... Methods.s"
+	@echo "... Student.o"
+	@echo "... Student.i"
+	@echo "... Student.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
