@@ -118,3 +118,63 @@ double& getArea(double radius){
         * 自定义析构函数只能有一个，不能有重载
         * 不管是否自定义一个析构函数，C++编译器都会生成一个默认的析构函数
     * 构造函数有一个参数的类的隐式转换，用explicit关键字一直隐式转换
+        ```
+          explicit Car(const char *t_name){
+                  cout << "Car(const char *t_name)" << endl;
+                  m_name=t_name;
+                  m_age=1;
+          }
+          
+          //一个参数的构造函数的隐式转换
+          Car t_car5 = "Bugkiller";
+          Car t_car6 = 33;
+        ```
+#### 堆与copy构造函数
+
+- new/delete关键字
+    * 与molloc/free的区别：molloc/free是函数，需要包含头文件<molloc.h>，
+    而new/delete是操作符，不需要包含任何头文件，
+        ```
+        int *t_p1 = (int *)malloc(sizeof(int));
+        *t_p1 = 10;
+        cout << "*t_p1:" << *t_p1 << endl;
+    
+        free(t_p1);
+        //防止产生野指针
+        t_p1 = NULL;
+    
+        cout << "============================" << endl;
+    
+        int *t_p2 = new int;
+        *t_p2 = 100;
+        cout << "*t_p2:" << *t_p2 << endl;
+        delete t_p2;
+        t_p2 = NULL;
+    
+        cout << "============================" << endl;
+    
+        int *t_p3 = new int(200);
+        cout << "*t_p3:" << *t_p3 << endl;
+        delete t_p3;
+        t_p3 = NULL;
+    
+    
+        cout << "============================" << endl;
+    
+        int *t_p4=new int[10];
+        for (int i = 0; i < 10; ++i) {
+            t_p4[i] = 3*i;
+            cout << "t_p4[" << i << "]=" << t_p4[i] << endl;
+        }
+    
+        //释放数组内存
+        delete [] t_p4;
+        t_p4 = NULL;
+        ```
+    - 创建对象的方式
+        ```
+        //堆上开辟内存
+        Student *student = new Student;
+        //栈上开辟内存
+        Student student;
+        ```
