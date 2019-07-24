@@ -34,6 +34,25 @@ public:
     void testPublic();
     void print();
     void createStudentArray();
+    //自定义赋值操作符
+    Student& operator =(const Student &t_student){
+        cout << "operator =" << endl;
+        if(&t_student != this){
+            name = t_student.name;
+            age = t_student.age;
+        }
+
+        return *this;
+    }
+
+    string getName() const{
+        return name;
+    };
+
+    string getId() const {
+        return  id;
+    }
+
 protected:
     string id;
     string getId();
@@ -45,6 +64,7 @@ private:
     int &height2;
     Student *student;
     Student &student2;
+    char* sex;
     int getAge();
     void testPrivate();
 };

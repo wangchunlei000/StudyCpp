@@ -109,12 +109,68 @@ CMakeFiles/Sample.dir/Student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample.dir/Student.cpp.s"
 	/Users/dwb/Documents/Software/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dwb/Documents/Code/CLion/Sample/Student.cpp -o CMakeFiles/Sample.dir/Student.cpp.s
 
+CMakeFiles/Sample.dir/Car.cpp.o: CMakeFiles/Sample.dir/flags.make
+CMakeFiles/Sample.dir/Car.cpp.o: ../Car.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dwb/Documents/Code/CLion/Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Sample.dir/Car.cpp.o"
+	/Users/dwb/Documents/Software/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sample.dir/Car.cpp.o -c /Users/dwb/Documents/Code/CLion/Sample/Car.cpp
+
+CMakeFiles/Sample.dir/Car.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample.dir/Car.cpp.i"
+	/Users/dwb/Documents/Software/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dwb/Documents/Code/CLion/Sample/Car.cpp > CMakeFiles/Sample.dir/Car.cpp.i
+
+CMakeFiles/Sample.dir/Car.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample.dir/Car.cpp.s"
+	/Users/dwb/Documents/Software/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dwb/Documents/Code/CLion/Sample/Car.cpp -o CMakeFiles/Sample.dir/Car.cpp.s
+
+CMakeFiles/Sample.dir/Teacher.cpp.o: CMakeFiles/Sample.dir/flags.make
+CMakeFiles/Sample.dir/Teacher.cpp.o: ../Teacher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dwb/Documents/Code/CLion/Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Sample.dir/Teacher.cpp.o"
+	/Users/dwb/Documents/Software/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sample.dir/Teacher.cpp.o -c /Users/dwb/Documents/Code/CLion/Sample/Teacher.cpp
+
+CMakeFiles/Sample.dir/Teacher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample.dir/Teacher.cpp.i"
+	/Users/dwb/Documents/Software/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dwb/Documents/Code/CLion/Sample/Teacher.cpp > CMakeFiles/Sample.dir/Teacher.cpp.i
+
+CMakeFiles/Sample.dir/Teacher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample.dir/Teacher.cpp.s"
+	/Users/dwb/Documents/Software/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dwb/Documents/Code/CLion/Sample/Teacher.cpp -o CMakeFiles/Sample.dir/Teacher.cpp.s
+
+CMakeFiles/Sample.dir/Animal.cpp.o: CMakeFiles/Sample.dir/flags.make
+CMakeFiles/Sample.dir/Animal.cpp.o: ../Animal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dwb/Documents/Code/CLion/Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Sample.dir/Animal.cpp.o"
+	/Users/dwb/Documents/Software/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sample.dir/Animal.cpp.o -c /Users/dwb/Documents/Code/CLion/Sample/Animal.cpp
+
+CMakeFiles/Sample.dir/Animal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample.dir/Animal.cpp.i"
+	/Users/dwb/Documents/Software/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dwb/Documents/Code/CLion/Sample/Animal.cpp > CMakeFiles/Sample.dir/Animal.cpp.i
+
+CMakeFiles/Sample.dir/Animal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample.dir/Animal.cpp.s"
+	/Users/dwb/Documents/Software/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dwb/Documents/Code/CLion/Sample/Animal.cpp -o CMakeFiles/Sample.dir/Animal.cpp.s
+
+CMakeFiles/Sample.dir/AnimalFactory.cpp.o: CMakeFiles/Sample.dir/flags.make
+CMakeFiles/Sample.dir/AnimalFactory.cpp.o: ../AnimalFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dwb/Documents/Code/CLion/Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Sample.dir/AnimalFactory.cpp.o"
+	/Users/dwb/Documents/Software/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sample.dir/AnimalFactory.cpp.o -c /Users/dwb/Documents/Code/CLion/Sample/AnimalFactory.cpp
+
+CMakeFiles/Sample.dir/AnimalFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sample.dir/AnimalFactory.cpp.i"
+	/Users/dwb/Documents/Software/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dwb/Documents/Code/CLion/Sample/AnimalFactory.cpp > CMakeFiles/Sample.dir/AnimalFactory.cpp.i
+
+CMakeFiles/Sample.dir/AnimalFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sample.dir/AnimalFactory.cpp.s"
+	/Users/dwb/Documents/Software/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dwb/Documents/Code/CLion/Sample/AnimalFactory.cpp -o CMakeFiles/Sample.dir/AnimalFactory.cpp.s
+
 # Object files for target Sample
 Sample_OBJECTS = \
 "CMakeFiles/Sample.dir/main.cpp.o" \
 "CMakeFiles/Sample.dir/Cite.cpp.o" \
 "CMakeFiles/Sample.dir/Methods.cpp.o" \
-"CMakeFiles/Sample.dir/Student.cpp.o"
+"CMakeFiles/Sample.dir/Student.cpp.o" \
+"CMakeFiles/Sample.dir/Car.cpp.o" \
+"CMakeFiles/Sample.dir/Teacher.cpp.o" \
+"CMakeFiles/Sample.dir/Animal.cpp.o" \
+"CMakeFiles/Sample.dir/AnimalFactory.cpp.o"
 
 # External object files for target Sample
 Sample_EXTERNAL_OBJECTS =
@@ -123,9 +179,13 @@ Sample: CMakeFiles/Sample.dir/main.cpp.o
 Sample: CMakeFiles/Sample.dir/Cite.cpp.o
 Sample: CMakeFiles/Sample.dir/Methods.cpp.o
 Sample: CMakeFiles/Sample.dir/Student.cpp.o
+Sample: CMakeFiles/Sample.dir/Car.cpp.o
+Sample: CMakeFiles/Sample.dir/Teacher.cpp.o
+Sample: CMakeFiles/Sample.dir/Animal.cpp.o
+Sample: CMakeFiles/Sample.dir/AnimalFactory.cpp.o
 Sample: CMakeFiles/Sample.dir/build.make
 Sample: CMakeFiles/Sample.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dwb/Documents/Code/CLion/Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Sample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dwb/Documents/Code/CLion/Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Sample"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Sample.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

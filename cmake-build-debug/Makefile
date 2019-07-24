@@ -123,6 +123,87 @@ Sample/fast:
 	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/build
 .PHONY : Sample/fast
 
+Animal.o: Animal.cpp.o
+
+.PHONY : Animal.o
+
+# target to build an object file
+Animal.cpp.o:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/Animal.cpp.o
+.PHONY : Animal.cpp.o
+
+Animal.i: Animal.cpp.i
+
+.PHONY : Animal.i
+
+# target to preprocess a source file
+Animal.cpp.i:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/Animal.cpp.i
+.PHONY : Animal.cpp.i
+
+Animal.s: Animal.cpp.s
+
+.PHONY : Animal.s
+
+# target to generate assembly for a file
+Animal.cpp.s:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/Animal.cpp.s
+.PHONY : Animal.cpp.s
+
+AnimalFactory.o: AnimalFactory.cpp.o
+
+.PHONY : AnimalFactory.o
+
+# target to build an object file
+AnimalFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/AnimalFactory.cpp.o
+.PHONY : AnimalFactory.cpp.o
+
+AnimalFactory.i: AnimalFactory.cpp.i
+
+.PHONY : AnimalFactory.i
+
+# target to preprocess a source file
+AnimalFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/AnimalFactory.cpp.i
+.PHONY : AnimalFactory.cpp.i
+
+AnimalFactory.s: AnimalFactory.cpp.s
+
+.PHONY : AnimalFactory.s
+
+# target to generate assembly for a file
+AnimalFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/AnimalFactory.cpp.s
+.PHONY : AnimalFactory.cpp.s
+
+Car.o: Car.cpp.o
+
+.PHONY : Car.o
+
+# target to build an object file
+Car.cpp.o:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/Car.cpp.o
+.PHONY : Car.cpp.o
+
+Car.i: Car.cpp.i
+
+.PHONY : Car.i
+
+# target to preprocess a source file
+Car.cpp.i:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/Car.cpp.i
+.PHONY : Car.cpp.i
+
+Car.s: Car.cpp.s
+
+.PHONY : Car.s
+
+# target to generate assembly for a file
+Car.cpp.s:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/Car.cpp.s
+.PHONY : Car.cpp.s
+
 Cite.o: Cite.cpp.o
 
 .PHONY : Cite.o
@@ -204,6 +285,33 @@ Student.cpp.s:
 	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/Student.cpp.s
 .PHONY : Student.cpp.s
 
+Teacher.o: Teacher.cpp.o
+
+.PHONY : Teacher.o
+
+# target to build an object file
+Teacher.cpp.o:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/Teacher.cpp.o
+.PHONY : Teacher.cpp.o
+
+Teacher.i: Teacher.cpp.i
+
+.PHONY : Teacher.i
+
+# target to preprocess a source file
+Teacher.cpp.i:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/Teacher.cpp.i
+.PHONY : Teacher.cpp.i
+
+Teacher.s: Teacher.cpp.s
+
+.PHONY : Teacher.s
+
+# target to generate assembly for a file
+Teacher.cpp.s:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/Teacher.cpp.s
+.PHONY : Teacher.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -240,6 +348,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Sample"
+	@echo "... Animal.o"
+	@echo "... Animal.i"
+	@echo "... Animal.s"
+	@echo "... AnimalFactory.o"
+	@echo "... AnimalFactory.i"
+	@echo "... AnimalFactory.s"
+	@echo "... Car.o"
+	@echo "... Car.i"
+	@echo "... Car.s"
 	@echo "... Cite.o"
 	@echo "... Cite.i"
 	@echo "... Cite.s"
@@ -249,6 +366,9 @@ help:
 	@echo "... Student.o"
 	@echo "... Student.i"
 	@echo "... Student.s"
+	@echo "... Teacher.o"
+	@echo "... Teacher.i"
+	@echo "... Teacher.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -80,6 +80,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/dwb/Documents/Code/CLion/Sample/Animal.cpp">
+			<Option target="Sample"/>
+		</Unit>
+		<Unit filename="/Users/dwb/Documents/Code/CLion/Sample/Animal.h">
+			<Option target="Sample"/>
+		</Unit>
+		<Unit filename="/Users/dwb/Documents/Code/CLion/Sample/AnimalFactory.cpp">
+			<Option target="Sample"/>
+		</Unit>
+		<Unit filename="/Users/dwb/Documents/Code/CLion/Sample/AnimalFactory.h">
+			<Option target="Sample"/>
+		</Unit>
+		<Unit filename="/Users/dwb/Documents/Code/CLion/Sample/Car.cpp">
+			<Option target="Sample"/>
+		</Unit>
+		<Unit filename="/Users/dwb/Documents/Code/CLion/Sample/Car.h">
+			<Option target="Sample"/>
+		</Unit>
 		<Unit filename="/Users/dwb/Documents/Code/CLion/Sample/Cite.cpp">
 			<Option target="Sample"/>
 		</Unit>
@@ -96,6 +114,12 @@
 			<Option target="Sample"/>
 		</Unit>
 		<Unit filename="/Users/dwb/Documents/Code/CLion/Sample/Student.h">
+			<Option target="Sample"/>
+		</Unit>
+		<Unit filename="/Users/dwb/Documents/Code/CLion/Sample/Teacher.cpp">
+			<Option target="Sample"/>
+		</Unit>
+		<Unit filename="/Users/dwb/Documents/Code/CLion/Sample/Teacher.h">
 			<Option target="Sample"/>
 		</Unit>
 		<Unit filename="/Users/dwb/Documents/Code/CLion/Sample/main.cpp">

@@ -57,7 +57,6 @@ void Student::print() {
 
 Student::Student(const string &name)
     :name(name),height2(height),student2(*this){
-
 }
 
 void Student::createStudentArray() {

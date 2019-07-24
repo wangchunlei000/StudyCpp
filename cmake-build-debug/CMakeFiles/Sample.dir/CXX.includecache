@@ -6,6 +6,26 @@
 
 #IncludeRegexTransform: 
 
+/Users/dwb/Documents/Code/CLion/Sample/Animal.h
+iostream
+-
+AnimalFactory.h
+/Users/dwb/Documents/Code/CLion/Sample/AnimalFactory.h
+
+/Users/dwb/Documents/Code/CLion/Sample/AnimalFactory.h
+string
+-
+iostream
+-
+Animal.h
+/Users/dwb/Documents/Code/CLion/Sample/Animal.h
+
+/Users/dwb/Documents/Code/CLion/Sample/Car.h
+iostream
+-
+string
+-
+
 /Users/dwb/Documents/Code/CLion/Sample/Cite.h
 
 /Users/dwb/Documents/Code/CLion/Sample/Methods.h
@@ -29,4 +49,8 @@ Methods.h
 /Users/dwb/Documents/Code/CLion/Sample/Methods.h
 Student.h
 /Users/dwb/Documents/Code/CLion/Sample/Student.h
+Car.h
+/Users/dwb/Documents/Code/CLion/Sample/Car.h
+Animal.h
+/Users/dwb/Documents/Code/CLion/Sample/Animal.h
 
